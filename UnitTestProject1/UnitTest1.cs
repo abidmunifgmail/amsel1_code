@@ -24,7 +24,7 @@ namespace UnitTestProject1
             IWebElement submit_Btn = driver.FindElement(By.Id("login"));
             submit_Btn.Click();
 
-            Thread.Sleep(5000);
+            Thread.Sleep(4000);
 
             string welcomeMessage = driver.FindElement(By.Id("username_show")).GetAttribute("value");
 
